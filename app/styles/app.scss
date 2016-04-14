@@ -3,3 +3,29 @@
 // Uncomment this for working with yoga prototyping
 // http://rtablada.github.io/yoga-sass/#mixin-yoga-prototype
 // @include yoga-prototype();
+
+$brand-blue: #00bbd3;
+$brand-yellow: #ffff8c;
+$title-white: #fff;
+$regular-text: #1c1c1c;
+$placeholder-text: rgba(0, 0, 0, 0.38);
+
+$font-family: Roboto;
+$base-font-size: 14px;
+$base-line-height: 2.14rem;
+
+.app {
+
+
+}
+
+.top-nav {
+
+}
+
+.nav-list {
+  margin: auto;
+  width: 100%;
+  background-color: $brand-blue;
+  color: $title-white;
+}
