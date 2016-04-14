@@ -15,17 +15,54 @@ $base-font-size: 14px;
 $base-line-height: 2.14rem;
 
 .app {
+  margin: auto;
+  max-width: 80rem;
 
 
 }
 
 .top-nav {
+  width: 80rem;
 
 }
 
 .nav-list {
   margin: auto;
-  width: 100%;
+  width: 80rem;
   background-color: $brand-blue;
   color: $title-white;
+
+
+}
+
+.nav-list_brand {
+
+}
+
+.second-nav {
+  // display: flex;
+  // flex-direction: column;
+
+  margin: auto;
+  width: 80rem;
+  background-color: $brand-blue;
+  color: $title-white;
+
+}
+
+.second-nav_list {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+
+}
+.second-nav_link {
+  margin: auto;
+  border-radius: 1rem;
+}
+
+.app-content {
+width: 100%
+
+
 }
