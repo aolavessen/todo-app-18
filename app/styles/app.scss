@@ -22,7 +22,7 @@ $base-line-height: 2.14rem;
 }
 
 .top-nav {
-  width: 80rem;
+  // width: 80rem;
 
 }
 
@@ -39,16 +39,6 @@ $base-line-height: 2.14rem;
 
 }
 
-.second-nav {
-  // display: flex;
-  // flex-direction: column;
-
-  margin: auto;
-  width: 80rem;
-  background-color: $brand-blue;
-  color: $title-white;
-
-}
 
 .second-nav_list {
   display: flex;
@@ -64,5 +54,40 @@ $base-line-height: 2.14rem;
 .app-content {
 width: 100%
 
+
+}
+
+.app-add {
+  color: $regular-text;
+  margin: auto;
+  padding-top: 2rem;
+  max-width: 50rem;
+// background-color: purple;
+
+}
+
+.nav-add {
+
+}
+
+.nav-add_title {
+
+}
+
+.list-add {
+  // color: $placeholder-text;
+  border: 1px solid black;
+  background-color: yellow;
+  display: flex;
+  // flex-direction: column;
+  text-align: center;
+
+}
+
+.input {
+
+}
+
+.button {
 
 }
