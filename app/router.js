@@ -12,4 +12,5 @@ Router.map(function() {
   this.route('add-new-list');
 });
 
+
 export default Router;

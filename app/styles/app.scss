@@ -71,23 +71,34 @@ width: 100%
 }
 
 .nav-add_title {
+  padding-bottom: 1rem;
 
 }
 
 .list-add {
   // color: $placeholder-text;
   border: 1px solid black;
-  background-color: yellow;
-  display: flex;
+  // background-color: yellow;
+  // display: flex;
   // flex-direction: column;
-  text-align: center;
+  // box-shadow: 1;
 
 }
 
-.input {
+.first-line {
+  padding-top: 2rem;
+
 
 }
 
-.button {
+.second-line {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  color: $brand-blue;
+
+
 
 }
