@@ -14,6 +14,21 @@ $font-family: Roboto;
 $base-font-size: 14px;
 $base-line-height: 2.14rem;
 
+
+ // {
+ //   box-sizing:border-box;
+ //
+ //   :before,
+ //   :after {
+ //     box-sizing: border-box;
+ //   }
+ //
+ //   body {
+ //     margin: 0;
+ //     color: $title-white;
+ //     font-family: sans-serif;
+ //   }
+ // }
 .nav-container {
   // display: flex;
   margin: auto;
@@ -51,9 +66,39 @@ $base-line-height: 2.14rem;
   border-radius: 1rem;
 }
 
+.app-content_container {
+  margin: auto;
+  width: 50rem;
+  border: 0.05rem solid gray;
+
+
+}
+
 .app-content {
 
+}
 
+.form-content {
+
+}
+
+.reminders-list {
+
+}
+
+.reminders-item {
+
+}
+
+.input-container {
+  background-color: purple;
+  display: flex;
+  align-content: space-between;
+
+}
+
+.submit-button {
+  color: $brand-blue;
 
 }
 
@@ -94,12 +139,12 @@ $base-line-height: 2.14rem;
 
 .second-line {
 
-  // padding-top: 4rem;
-  // padding-bottom: 1rem;
-  // padding-right: 1rem;
-  // display: flex;
-  // justify-content: flex-end;
-  // color: $brand-blue;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  color: $brand-blue;
 
 
 
