@@ -6,10 +6,7 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('new-years-resolutions');
-  this.route('groceries');
-  this.route('homework');
-  this.route('add-new-list');
+  this.route('new', {path: '/new-list'});
 });
 
 

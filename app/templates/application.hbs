@@ -6,32 +6,15 @@
     </div>
     <div class="second-nav_list">
       <ul class="nav-list_menu">
-        {{outlet}}
-      <div class="second-nav_link">New Years Resolution</div>
-      <div class="second-nav_link">Groceries</div>
-      <div class="second-nav_link">Homework</div>
-      <div class="second-nav_link">Add New List</div>
+        {{#each model as |list|}}
+      <li class="second-nav_link">{{list.title}}</li>
+      {{/each}}
     </ul>
+    {{#link-to "add-new-list"}}
+    <p class="add-list">Add New List</p>
+    {{/link-to}}
   </div>
  </div>
  </header>
 
-<div class="app-content_container">
-  <div class="app-content">
-    <h2>Here We Go!!</h2>
-</div>
-<form class="form-content">
-  <ul class="reminders-list">
-    <li class="reminders-item">don't</li>
-    <li class="reminders-item">forget</li>
-    <li class="reminders-item">this</li>
-    <li class="reminders-item">dumbass</li>
-  </ul>
-  <div class="input-container">
-    {{input class="info-item" type=text placeholder="Add Item"}}
-    <button class="submit-button">Accept</button>
-  </div>
-</form>
-
-
-</div>
+{{outlet}}

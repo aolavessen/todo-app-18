@@ -79,11 +79,12 @@ $base-line-height: 2.14rem;
 }
 
 .form-content {
-  border: 0.05rem solid gray;
+  box-shadow: 0.3rem 0.3rem 2rem $regular-text;
 
 }
 
 .reminders-list {
+  padding-top: 1rem;
 
 }
 
