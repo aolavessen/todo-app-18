@@ -15,143 +15,43 @@ $base-font-size: 14px;
 $base-line-height: 2.14rem;
 
 
- // {
- //   box-sizing:border-box;
- //
- //   :before,
- //   :after {
- //     box-sizing: border-box;
- //   }
- //
- //   body {
- //     margin: 0;
- //     color: $title-white;
- //     font-family: sans-serif;
- //   }
- // }
-.nav-container {
-  // display: flex;
-  margin: auto;
-  width: 80rem;
-  background-color: $brand-blue;
-  color: $title-white;
+body {
+  font-size: 14px;
+}
 
+nav {
+  min-width: 100%;
+  background: #00bbd3;
+  color: #fff;
+}
+
+.topnav {
+  display:flex;
 
 }
 
-.top-nav {
-  display: flex;
-  flex-direction: row;
+.hamburger {
+  margin: 1rem;
 }
 
-.nav-list_brand {
-  padding-left: 2rem;
-
-
-}
-
-
-.second-nav_list {
-  //  display: flex;
-  //  flex-direction: column;
-
-
-}
-
-.nav-list_menu {
-  display: flex;
-}
-.second-nav_link {
-  margin: auto;
-  border-radius: 1rem;
-}
-
-.app-content_container {
-  margin: auto;
-  width: 50rem;
-
-
-
-}
-
-.app-content {
-
-}
-
-.form-content {
-  box-shadow: 0.3rem 0.3rem 2rem $regular-text;
-
-}
-
-.reminders-list {
-  padding-top: 1rem;
-
-}
-
-.reminders-item {
-
-}
-
-.input-container {
-  // background-color: purple;
+.list-list {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 1rem;
-  padding-right: 1rem;
-  padding-left: 1.5rem;
-
-}
-
-.submit-button {
-  color: $brand-blue;
-
-
-}
-
-.app-add {
-  color: $regular-text;
+  width: 100%;
+  overflow: auto;
   margin: auto;
-  padding-top: 2rem;
-  max-width: 50rem;
-// background-color: purple;
-
 }
 
-.nav-add {
-
-}
-
-.nav-add_title {
-  padding-bottom: 1rem;
-
-}
-
-.list-add {
-  // color: $placeholder-text;
-  border: 1px solid grey;
-  // background-color: yellow;
-  // display: flex;
-  // flex-direction: column;
-  // box-shadow: 1;
-
-}
-
-.first-line {
-
-  padding-top: 2rem;
-
-
-}
-
-.second-line {
-
-  padding-top: 4rem;
-  padding-bottom: 1rem;
-  padding-right: 1rem;
+.sub-nav-list {
+  width: 100%;
+  overflow: auto;
   display: flex;
-  justify-content: flex-end;
-  color: $brand-blue;
+  justify-content: space-around;
 
+}
 
-
+.sub-navbar-links {
+  width: 25%;
+  display: flex;
+  justify-content: center;
 }
