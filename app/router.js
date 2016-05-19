@@ -8,8 +8,11 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('new', {path: '/new-list'});
   this.route('new');
-  this.route('lists');
+  this.route('lists', function() {
+    this.route('new');
+  });
   this.route('application', function() {});
+  this.route('list');
 });
 
 
